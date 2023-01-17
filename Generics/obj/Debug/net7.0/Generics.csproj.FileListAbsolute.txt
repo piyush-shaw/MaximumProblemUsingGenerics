@@ -1,0 +1,15 @@
+/Users/piyushshaw/Projects/Generics/Generics/bin/Debug/net7.0/Generics
+/Users/piyushshaw/Projects/Generics/Generics/bin/Debug/net7.0/Generics.deps.json
+/Users/piyushshaw/Projects/Generics/Generics/bin/Debug/net7.0/Generics.runtimeconfig.json
+/Users/piyushshaw/Projects/Generics/Generics/bin/Debug/net7.0/Generics.dll
+/Users/piyushshaw/Projects/Generics/Generics/bin/Debug/net7.0/Generics.pdb
+/Users/piyushshaw/Projects/Generics/Generics/obj/Debug/net7.0/Generics.csproj.AssemblyReference.cache
+/Users/piyushshaw/Projects/Generics/Generics/obj/Debug/net7.0/Generics.GeneratedMSBuildEditorConfig.editorconfig
+/Users/piyushshaw/Projects/Generics/Generics/obj/Debug/net7.0/Generics.AssemblyInfoInputs.cache
+/Users/piyushshaw/Projects/Generics/Generics/obj/Debug/net7.0/Generics.AssemblyInfo.cs
+/Users/piyushshaw/Projects/Generics/Generics/obj/Debug/net7.0/Generics.csproj.CoreCompileInputs.cache
+/Users/piyushshaw/Projects/Generics/Generics/obj/Debug/net7.0/Generics.dll
+/Users/piyushshaw/Projects/Generics/Generics/obj/Debug/net7.0/refint/Generics.dll
+/Users/piyushshaw/Projects/Generics/Generics/obj/Debug/net7.0/Generics.pdb
+/Users/piyushshaw/Projects/Generics/Generics/obj/Debug/net7.0/Generics.genruntimeconfig.cache
+/Users/piyushshaw/Projects/Generics/Generics/obj/Debug/net7.0/ref/Generics.dll
