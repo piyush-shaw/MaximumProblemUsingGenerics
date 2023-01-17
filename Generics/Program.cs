@@ -5,7 +5,7 @@ internal class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Welcome to Maximum Problem Using Generics ");
-        Console.WriteLine("\n1.Maximum Integer \n2.Maximum Floating \n3.Maximum String");
+        Console.WriteLine("\n1.Maximum Integer \n2.Maximum Floating \n3.Maximum String \n4.Maximum Using Generic Method ");
         int option = Convert.ToInt32(Console.ReadLine());
         switch (option)
         {
@@ -20,6 +20,12 @@ internal class Program
             case 3:
                 Console.WriteLine("Maximum String");
                 Console.WriteLine(MaximumNumber.MaximumString("Apple","Peach","Banana"));
+                break;
+            case 4:
+                Console.WriteLine("Maximum using Generic Method");
+                Console.WriteLine("Maximum For Integer "+MaximumUsingGenerics.MaxValue(10,15,11));
+                Console.WriteLine("Maximum For Float "+MaximumUsingGenerics.MaxValue(9.1f,7.9f,8.7f));
+                Console.WriteLine("Maximum For String "+MaximumUsingGenerics.MaxValue("Bengaluru","Delhi","Kolkata"));
                 break;
             default:
                 Console.WriteLine("Invalid option ");
