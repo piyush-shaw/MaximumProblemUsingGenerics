@@ -23,9 +23,9 @@ internal class Program
                 break;
             case 4:
                 Console.WriteLine("Maximum using Generic Method");
-                Console.WriteLine("Maximum For Integer "+MaximumUsingGenerics.MaxValue(10,15,11));
-                Console.WriteLine("Maximum For Float "+MaximumUsingGenerics.MaxValue(9.1f,7.9f,8.7f));
-                Console.WriteLine("Maximum For String "+MaximumUsingGenerics.MaxValue("Bengaluru","Delhi","Kolkata"));
+                Console.WriteLine("Maximum For Integer "+MaximumGenericMethod.MaxValue(10,15,11));
+                Console.WriteLine("Maximum For Float "+ MaximumGenericMethod.MaxValue(9.1f,7.9f,8.7f));
+                Console.WriteLine("Maximum For String "+ MaximumGenericMethod.MaxValue("Bengaluru","Delhi","Kolkata"));
                 break;
             default:
                 Console.WriteLine("Invalid option ");

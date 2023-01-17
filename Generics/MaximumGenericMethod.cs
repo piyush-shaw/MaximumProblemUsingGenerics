@@ -1,11 +1,12 @@
 ﻿using System;
 namespace Generics
+
 {
-	public class MaximumUsingGenerics
-	{
+    public class MaximumGenericMethod
+    {
         //Refactor all 3 method in to one generic method and finding maximum value
-		public static T MaxValue<T>(T firstValue, T secondValue, T thirdValue)where T : IComparable
-		{
+        public static T MaxValue<T>(T firstValue, T secondValue, T thirdValue) where T : IComparable
+        {
             if (firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) > 0 ||
                firstValue.CompareTo(secondValue) >= 0 && firstValue.CompareTo(thirdValue) > 0 ||
                firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) >= 0)
@@ -26,6 +27,8 @@ namespace Generics
             }
             return default;
         }
-	}
+    }
+
 }
+
 
