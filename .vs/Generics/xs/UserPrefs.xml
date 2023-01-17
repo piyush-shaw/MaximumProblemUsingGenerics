@@ -1,4 +1,24 @@
 ﻿<Properties StartupConfiguration="{7F532718-3693-40A0-8515-5C640AFAF9F4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Generics/MaximumNumber.cs">
+    <Files>
+      <File FileName="Generics/Program.cs" Line="5" Column="70" />
+      <File FileName="Generics/MaximumNumber.cs" Line="8" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Generics" expanded="True">
+            <Node name="Generics" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Generics FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Generics PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
