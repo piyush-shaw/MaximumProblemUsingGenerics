@@ -6,7 +6,7 @@ internal class Program
     {
         Console.WriteLine("Welcome to Maximum Problem Using Generics ");
         Console.WriteLine("\n1.Maximum Integer \n2.Maximum Floating \n3.Maximum String \n4.Maximum Using Generic Method "
-            + "\n5.Maximum Using Generic Class");
+            + "\n5.Maximum Using Generic Class \n6.Extend Max Value");
         int option = Convert.ToInt32(Console.ReadLine());
         switch (option)
         {
@@ -34,6 +34,13 @@ internal class Program
                 Console.WriteLine("Maximum For Float " + MaximumGenericClass<float>.MaxValue(19.1f, 27.9f, 18.7f));
                 Console.WriteLine("Maximum For String " + MaximumGenericClass<string>.MaxValue("Apple", "Peach", "Banana"));
                 break;
+            case 6:
+                Console.WriteLine("Extend Max Value");
+                int[] arr = { 101, 156, 167, 183, 176 };
+                GenericMaximum<int> generic = new GenericMaximum<int>(arr);
+                Console.WriteLine(generic.MaxValue());
+                break;
+
             default:
                 Console.WriteLine("Invalid option ");
                 break;
