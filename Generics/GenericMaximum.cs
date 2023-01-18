@@ -21,6 +21,17 @@ namespace Generics
 			var sorted_values = Sort(value);
 			return sorted_values[^1];
 		}
+		//UC5 generic method to print max value
+		public T MaxMethod()
+		{
+			var max = MaxValue(this.value);
+			return max;
+		}
+		public void PrintMaxValue()
+		{
+			var max = MaxValue(this.value);
+			Console.WriteLine("Maximum value is "+max);
+		}
 	}
 }
 
